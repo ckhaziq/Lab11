@@ -2,7 +2,7 @@
 
 $id = $_POST['id'];
 
-$con = mysqli_connect("localhost", "root") or die(mysqli_connect_error());
+$con = mysqli_connect("ca19009-lab11-server.mysql.database.azure.com","dfyhiqizfj","4M31IQQPH470C85J$","ca19009-lab11-database") or die(mysqli_connect_error());
 
 // to select the targeted database
 mysqli_select_db($con,"mydb") or die(mysqli_error());
